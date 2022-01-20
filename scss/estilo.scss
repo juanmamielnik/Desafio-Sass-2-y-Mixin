@@ -1,0 +1,26 @@
+
+@import "var";
+@import "body";
+@import "header";
+@import "main";
+@import "footer";
+
+@mixin cajas($bcaja){
+    background-color: $bg_coral ;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+}  
+
+    
+.sucursal{
+    @include cajas($bg_coral)
+}
+
+.empresa{
+    @include cajas($bg_caja1)
+}
+
+.footer{
+    @include cajas($bg_coral)
+}

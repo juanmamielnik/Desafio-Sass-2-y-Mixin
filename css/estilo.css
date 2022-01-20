@@ -1,0 +1,78 @@
+* {
+  margin: 0%;
+  padding: 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: greenyellow;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav .menu {
+  background-color: #00008b;
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header nav .menu li {
+  padding: 10px;
+  margin: 10px;
+}
+
+header nav .menu li a {
+  color: #ff7f50;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+
+header nav .menu li a:hover {
+  background-color: red;
+  color: #ff7f50;
+}
+
+main {
+  font-family: cursive;
+  color: white;
+}
+
+footer {
+  font-family: cursive;
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.sucursal {
+  background-color: #ff7f50;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.empresa {
+  background-color: #eec2c2;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.footer {
+  background-color: #eec2c2;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+/*# sourceMappingURL=estilo.css.map */
